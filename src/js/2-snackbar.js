@@ -8,7 +8,7 @@ const createPromise = (delay, state) =>
     }, delay);
   });
 
-const form = document.querySelector('.promise-form');
+const form = document.querySelector('.form');
 
 form.addEventListener('submit', async event => {
   event.preventDefault();
